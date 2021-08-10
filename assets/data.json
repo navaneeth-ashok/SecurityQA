@@ -1,0 +1,18 @@
+{
+    "landingPage": {
+        "headline": "Index",
+        "text": "Welcome to the Index Page"
+    },
+    "qaPage": {
+        "headline": "Quality Assurance",
+        "text": "Welcome to the QA Page"
+    },
+    "securityPage": {
+        "headline": "Security",
+        "text": "Welcome to the Secuirty Page"
+    },
+    "badExmplePage": {
+        "headline": "Bad Example Page",
+        "text": "Welcome to the Bad Example Page"
+    }
+}
