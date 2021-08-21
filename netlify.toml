@@ -1,0 +1,11 @@
+[context.production]
+  environment = { NODE_VERSION = "14.16.0" }
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self';"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "same-origin"
+    Permissions-Policy = "fullscreen=(), autoplay=self, geolocation=self, picture-in-picture=self, sync-xhr=()"
